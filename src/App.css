@@ -1,0 +1,147 @@
+.result {
+  height: 60px;
+  background-color: green;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+}
+
+.calculator-btn {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
+
+.square {
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
+}
+
+.board {
+  border: 4px solid darkblue;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.memory-board {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  flex-wrap: wrap;
+
+}
+
+.black-tile {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  top: 375px;
+  left: 375px;
+  background-color: black;
+}
+
+.puzzle-table {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.puzzle-table img {
+  margin: 0;
+  padding: 0;
+  width: 125px;
+  height: 125px;
+  position: absolute;
+}
+
+.puzzle {
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+}
+
+.memory {
+  text-align: center;
+}
+
+.tile {
+  background-color: rgb(15, 182, 0);
+  color: rgb(15, 182, 0);
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  outline: none;
+  border: solid 3px rgb(15, 182, 0);
+  border-radius: 5px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header {
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.easy {
+  background-color: lightgreen;
+}
+
+.medium {
+  background-color: orange;
+}
+
+.hard {
+  background-color: red;
+}
+
+.base-div {
+  width: 40px;
+  height: 40px;
+  border: 5px solid black;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.div-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.div-btns {
+  display: flex;
+  flex-direction: row;
+}
